@@ -1,19 +1,14 @@
 import React, { Component } from 'react';
 import { View, Image, Text, TouchableHighlight } from 'react-native'
-import styles from './RecipeItem.styles'
+import styles from './RecipeScreen.styles'
 // import RecipeItem from '../components/recipeItem'
 
 class RecipeItem extends Component {
   render() {
     return (
-
-      <TouchableHighlight underlayColor="#FFFFFF" style={styles.recipeitem}>
         <View>
-          <Image source={{uri: 'https://placehold.it/480/ff3333/ffffff?text=:{)'}} style={styles.thumb} />
-          <Text style={styles.text}>Banana pancakes</Text>
+            <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus enim nisi, ac pellentesque urna porttitor eget.</Text>
         </View>
-      </TouchableHighlight>
-
     );
   }
 }

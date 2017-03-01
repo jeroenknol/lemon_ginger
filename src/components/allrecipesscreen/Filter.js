@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native'
+import { View, Text, Button } from 'react-native'
 import styles from './Filter.styles'
-// import RecipeItem from '../components/recipeItem'
 
 class Filter extends Component {
   render() {
     return (
         <View style={styles.container}>
-          <Text>Filter here</Text>
+          <Text style={styles.filter}>[Dropdown]</Text>
+          <Button
+            title="Filter"
+            color="#d8d8d8"
+            accessibilityLabel="Filter recipes"
+          />
         </View>
     );
   }

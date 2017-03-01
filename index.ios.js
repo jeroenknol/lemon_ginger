@@ -9,16 +9,21 @@ import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
 } from 'react-native';
+
+import AboutScreen from './src/screens/About'
+import AllRecipesScreen from './src/screens/AllRecipes'
 import Login from './src/screens/Login'
-import AllRecipes from './src/screens/AllRecipes'
+import RecipeScreen from './src/screens/Recipe'
 
 export default class LemonAndGinger extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <AllRecipes />
+      <View>
+        {/* <AboutScreen /> */}
+        {/* <RecipeScreen /> */}
+        <AllRecipesScreen />
       </View>
     );
   }
