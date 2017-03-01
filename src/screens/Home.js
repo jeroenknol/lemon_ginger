@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 import Login from './Login'
 import styles from './Home.styles'
+import navigateTo from '../actions/navigate'
 
 class LemonAndGinger extends Component {
   render() {
