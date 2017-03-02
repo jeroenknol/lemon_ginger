@@ -22,12 +22,6 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		1595840C1E686F2B0045F6F4 /* simonetta_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 159584091E686F2B0045F6F4 /* simonetta_regular.ttf */; };
-		1595840D1E686F2B0045F6F4 /* simonetta_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 159584091E686F2B0045F6F4 /* simonetta_regular.ttf */; };
-		1595840E1E686F2B0045F6F4 /* sourcesanspro_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1595840A1E686F2B0045F6F4 /* sourcesanspro_regular.ttf */; };
-		1595840F1E686F2B0045F6F4 /* sourcesanspro_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1595840A1E686F2B0045F6F4 /* sourcesanspro_regular.ttf */; };
-		159584101E686F2B0045F6F4 /* sourcesanspro_semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1595840B1E686F2B0045F6F4 /* sourcesanspro_semibold.ttf */; };
-		159584111E686F2B0045F6F4 /* sourcesanspro_semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1595840B1E686F2B0045F6F4 /* sourcesanspro_semibold.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -50,6 +44,12 @@
 		6C3C1EE21E65CB9E007EA5AE /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3C1EDB1E65CB9E007EA5AE /* FBSDKShareKit.framework */; };
 		6C3C1EE31E65CB9E007EA5AE /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3C1EDB1E65CB9E007EA5AE /* FBSDKShareKit.framework */; };
 		6C3C1F0D1E65D032007EA5AE /* libRCTFBSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3C1EF61E65D00E007EA5AE /* libRCTFBSDK.a */; };
+		7554FC681E68750C0024B330 /* sourcesanspro_semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7554FC651E68750C0024B330 /* sourcesanspro_semibold.ttf */; };
+		7554FC691E68750C0024B330 /* sourcesanspro_semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7554FC651E68750C0024B330 /* sourcesanspro_semibold.ttf */; };
+		7554FC6A1E68750C0024B330 /* sourcesanspro_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7554FC661E68750C0024B330 /* sourcesanspro_regular.ttf */; };
+		7554FC6B1E68750C0024B330 /* sourcesanspro_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7554FC661E68750C0024B330 /* sourcesanspro_regular.ttf */; };
+		7554FC6C1E68750C0024B330 /* simonetta_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7554FC671E68750C0024B330 /* simonetta_regular.ttf */; };
+		7554FC6D1E68750C0024B330 /* simonetta_regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7554FC671E68750C0024B330 /* simonetta_regular.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 /* End PBXBuildFile section */
 
@@ -272,9 +272,6 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = LemonAndGinger/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = LemonAndGinger/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		159584091E686F2B0045F6F4 /* simonetta_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = simonetta_regular.ttf; sourceTree = "<group>"; };
-		1595840A1E686F2B0045F6F4 /* sourcesanspro_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sourcesanspro_regular.ttf; sourceTree = "<group>"; };
-		1595840B1E686F2B0045F6F4 /* sourcesanspro_semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sourcesanspro_semibold.ttf; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* LemonAndGinger-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LemonAndGinger-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* LemonAndGinger-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LemonAndGinger-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
@@ -282,6 +279,9 @@
 		6C3C1ED91E65CB9E007EA5AE /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		6C3C1EDA1E65CB9E007EA5AE /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		6C3C1EDB1E65CB9E007EA5AE /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		7554FC651E68750C0024B330 /* sourcesanspro_semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sourcesanspro_semibold.ttf; sourceTree = "<group>"; };
+		7554FC661E68750C0024B330 /* sourcesanspro_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sourcesanspro_regular.ttf; sourceTree = "<group>"; };
+		7554FC671E68750C0024B330 /* simonetta_regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = simonetta_regular.ttf; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		AE8FEE611C4243298BCC2D45 /* RCTFBSDK.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTFBSDK.xcodeproj; path = "../node_modules/react-native-fbsdk/ios/RCTFBSDK.xcodeproj"; sourceTree = "<group>"; };
@@ -428,9 +428,9 @@
 		13B07FAE1A68108700A75B9A /* LemonAndGinger */ = {
 			isa = PBXGroup;
 			children = (
-				159584091E686F2B0045F6F4 /* simonetta_regular.ttf */,
-				1595840A1E686F2B0045F6F4 /* sourcesanspro_regular.ttf */,
-				1595840B1E686F2B0045F6F4 /* sourcesanspro_semibold.ttf */,
+				7554FC651E68750C0024B330 /* sourcesanspro_semibold.ttf */,
+				7554FC661E68750C0024B330 /* sourcesanspro_regular.ttf */,
+				7554FC671E68750C0024B330 /* simonetta_regular.ttf */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -910,9 +910,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1595840D1E686F2B0045F6F4 /* simonetta_regular.ttf in Resources */,
-				1595840F1E686F2B0045F6F4 /* sourcesanspro_regular.ttf in Resources */,
-				159584111E686F2B0045F6F4 /* sourcesanspro_semibold.ttf in Resources */,
+				7554FC691E68750C0024B330 /* sourcesanspro_semibold.ttf in Resources */,
+				7554FC6D1E68750C0024B330 /* simonetta_regular.ttf in Resources */,
+				7554FC6B1E68750C0024B330 /* sourcesanspro_regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -921,10 +921,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				1595840E1E686F2B0045F6F4 /* sourcesanspro_regular.ttf in Resources */,
-				159584101E686F2B0045F6F4 /* sourcesanspro_semibold.ttf in Resources */,
-				1595840C1E686F2B0045F6F4 /* simonetta_regular.ttf in Resources */,
+				7554FC6A1E68750C0024B330 /* sourcesanspro_regular.ttf in Resources */,
+				7554FC6C1E68750C0024B330 /* simonetta_regular.ttf in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				7554FC681E68750C0024B330 /* sourcesanspro_semibold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
