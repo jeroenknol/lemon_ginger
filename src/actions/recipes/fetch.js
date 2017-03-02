@@ -1,5 +1,3 @@
-
-
 export const FETCHED_RECIPES = 'FETCHED_RECIPES'
 console.log('FetchRecipes action loaded')
 
@@ -10,10 +8,10 @@ export default () => {
       .then((response) => response.json())
       .then((responseJson) => {
         console.log(responseJson)
-        return {
+        dispatch({
           type: FETCHED_RECIPES,
           payload: responseJson
-        }
+          })
 
       })
       .catch((error) => {

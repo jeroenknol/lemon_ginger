@@ -42,5 +42,7 @@ class Home extends Component {
   }
 }
 
+// Line 45 converts state to props for recipes, mapStateToProps insterted into connect on line 48. 
+const mapStateToProps = ({ recipes }) => ({ recipes })
 
-export default connect(null, { fetchRecipes })(Home)      // fetchRecipes available as props
+export default connect(mapStateToProps, { fetchRecipes })(Home)
