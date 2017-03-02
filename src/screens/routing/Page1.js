@@ -45,6 +45,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#d7bf57',
   },
   welcome: {
+    fontFamily: 'simonetta',
     fontSize: 20,
     textAlign: 'center',
     margin: 10,
