@@ -5,12 +5,14 @@ import styles from './RecipeItem.styles'
 
 class RecipeItem extends Component {
   render() {
+    console.log('This propssz in recipe item: ',this.props)
     return (
 
       <TouchableHighlight underlayColor="#FFFFFF" style={styles.recipeitem}>
+
         <View>
-          <Image source={{uri: 'https://placehold.it/480/ff3333/ffffff?text=:{)'}} style={styles.thumb} />
-          <Text style={styles.text}>Banana pancakes</Text>
+          <Image source={{uri: 'http://localhost:3000' + this.props.photos[0].image.iphone6.url}} style={styles.thumb} />
+          <Text style={styles.text}>{this.props.title}</Text>
           <View style={styles.buttons}>
             <Image
               style={{width: 20, height: 20}}
@@ -24,4 +26,3 @@ class RecipeItem extends Component {
 }
 
 export default RecipeItem
-// connect(null, { navigateTo })(Home)
