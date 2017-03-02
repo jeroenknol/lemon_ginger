@@ -5,12 +5,15 @@ module.exports = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#FBDE5B',
   },
-  welcome: {
-    fontSize: 20,
+  title: {
+    fontSize: 50,
+    color: '#4A4A4A',
+    fontFamily: 'simonetta',
     textAlign: 'center',
     margin: 10,
+    marginBottom: 150
   },
   instructions: {
     textAlign: 'center',

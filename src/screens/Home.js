@@ -6,9 +6,14 @@ import Login from './Login'
 import styles from './Home.styles'
 
 class Home extends Component {
+  componentDidMount() {
+    this.props.hideNavbar()
+  }
+
   navigate(index) {
-    console.log(this.props.navigator)
-    this.props.navigator.push({index})
+    const { showNavbar, navigator } = this.props
+    showNavbar()
+    navigator.push({index})
   }
   componentWillMount() {
     console.log("In componentWillMount, let's fire up fetchRecipes")
@@ -20,9 +25,7 @@ class Home extends Component {
     console.log('This propz0rs',this.props)
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
+        <Text style={styles.title}>Lemon{'\n'}&{'\n'}Ginger</Text>
         <Text style={styles.instructions}>
           To get started, edit index.ios.js
         </Text>
@@ -34,7 +37,7 @@ class Home extends Component {
         <Button
           onPress={() => this.navigate(1)}
           title="Log in"
-          color="#333333"
+          color="#FBDE5B"
           accessibilityLabel="Log in"
         />
       </View>

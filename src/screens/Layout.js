@@ -4,11 +4,14 @@ import ControlPanel from '../components/ControlPanel'
 
 class Layout extends Component {
   navigateTo(route) {
-    this.props.navigator.push(route)
+    const { navigator, closeMenu, showNavbar } = this.props
+    closeMenu()
+    showNavbar()
+    navigator.push(route)
   }
 
   render() {
-    const navigator = this.props
+    const { menuOpen } = this.props
     const menu = <ControlPanel navigateTo={this.navigateTo.bind(this)} />
 
     return (
@@ -19,7 +22,7 @@ class Layout extends Component {
         panOpenMask={100}
         panCloseMask={100}
         type={'overlay'}
-        open={false}
+        open={menuOpen}
         openDrawerOffset={100}
         side={'right'}
       >
