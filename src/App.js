@@ -3,6 +3,7 @@ import { AppRegistry, Navigator, Text, TouchableHighlight, Button } from 'react-
 import styles from './App.styles'
 import Layout from './screens/Layout'
 import routes from './routes'
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
 
 class App extends Component {
   constructor() {
@@ -79,7 +80,10 @@ class App extends Component {
               LeftButton: (route, navigator, index, navState) =>
                 { return (<Text style={styles.text}>Cancel</Text>); },
               RightButton: (route, navigator, index, navState) =>
-                { return (<Text style={styles.text} onPress={openMenu}>Open</Text>); },
+                { return (
+                  <Text style={styles.text} onPress={openMenu}>
+                    <Icon name="hamburger" size={30} color="#900" />
+                  </Text>); },
               Title: (route, navigator, index, navState) =>
                 { return (<Text style={styles.titleText}>Awesome Nav Bar</Text>); },
             }}
