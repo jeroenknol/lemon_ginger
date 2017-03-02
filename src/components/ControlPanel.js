@@ -6,31 +6,29 @@ import {
   Button,
 } from 'react-native';
 
-class PageOne extends Component {
-  navigate(index) {
-    this.props.onNavigate({index})
-  }
-
+class ControlPanel extends Component {
   render() {
+    const { navigateTo } = this.props
+
     return (
       <View style={styles.container}>
         <Button
           style={styles.welcome}
-          onPress={() => this.navigate(0)}
+          onPress={() => navigateTo({ index: 0 })}
           title="Page 1"
           color="#333333"
           accessibilityLabel="Go to page 1"
         />
         <Button
           style={styles.welcome}
-          onPress={() => this.navigate(1)}
+          onPress={() => navigateTo({ index: 1 })}
           title="Page 2"
           color="#333333"
           accessibilityLabel="Go to page 2"
         />
         <Button
           style={styles.welcome}
-          onPress={() => this.navigate(2)}
+          onPress={() => navigateTo({ index: 2 })}
           title="Page 3"
           color="#333333"
           accessibilityLabel="Go to page 3"
@@ -59,4 +57,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default PageOne
+export default ControlPanel
