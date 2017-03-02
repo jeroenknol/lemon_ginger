@@ -14,22 +14,22 @@ class ControlPanel extends Component {
       <View style={styles.container}>
         <Button
           style={styles.welcome}
-          onPress={() => navigateTo({ index: 0 })}
-          title="Page 1"
+          onPress={() => navigateTo({ index: 2 })}
+          title="Recept van de week"
           color="#333333"
           accessibilityLabel="Go to page 1"
         />
         <Button
           style={styles.welcome}
           onPress={() => navigateTo({ index: 1 })}
-          title="Page 2"
+          title="Bekijk alle recepten"
           color="#333333"
           accessibilityLabel="Go to page 2"
         />
         <Button
           style={styles.welcome}
-          onPress={() => navigateTo({ index: 2 })}
-          title="Page 3"
+          onPress={() => navigateTo({ index: 3 })}
+          title="Over Roos"
           color="#333333"
           accessibilityLabel="Go to page 3"
         />
