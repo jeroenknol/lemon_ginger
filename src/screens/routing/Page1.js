@@ -10,6 +10,7 @@ import {
 
 class PageOne extends Component {
   navigate(index) {
+    console.log(this.props.navigator)
     this.props.navigator.push({index})
   }
 

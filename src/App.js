@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { AppRegistry, Navigator, Text, TouchableHighlight } from 'react-native';
+import styles from './App.styles'
 
 import Page1 from './screens/routing/Page1'
 import Page2 from './screens/routing/Page2'
@@ -28,6 +29,19 @@ class App extends Component {
       <Navigator
         initialRoute={routes[0]}
         renderScene={this.renderScene.bind(this)}
+        navigationBar={
+          <Navigator.NavigationBar
+            routeMapper={{
+              LeftButton: (route, navigator, index, navState) =>
+                { return (<Text style={styles.text}>Cancel</Text>); },
+              RightButton: (route, navigator, index, navState) =>
+                { return (<Text style={styles.text}>Done</Text>); },
+              Title: (route, navigator, index, navState) =>
+                { return (<Text style={styles.titleText}>Awesome Nav Bar</Text>); },
+            }}
+            style={styles.navigationbar}
+          />
+        }
       />
     )
   }
