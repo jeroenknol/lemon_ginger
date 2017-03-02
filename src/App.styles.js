@@ -1,13 +1,17 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet } from 'react-native'
 
 module.exports = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F6F6F6',
+  navigationbar: {
+    backgroundColor: '#FFF',
+    height: 64,
   },
-  navbar: {
-    backgroundColor: '#F5FCFF',
+  text: {
+    color: '#0076FF',
+    paddingLeft: 8,
+    paddingRight: 8,
+    paddingTop: 10,
   },
+  titleText: {
+    paddingTop: 10,
+  }
 });

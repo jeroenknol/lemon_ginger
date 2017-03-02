@@ -1,5 +1,5 @@
-import currentRoute from './currentRoute'
+import recipes from './recipes'
 
 module.exports = {
-  currentRoute,
+  recipes,
 }

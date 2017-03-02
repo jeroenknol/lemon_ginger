@@ -2,9 +2,8 @@ import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 import Login from './Login'
 import styles from './Home.styles'
-import navigateTo from '../actions/navigate'
 
-class LemonAndGinger extends Component {
+class Home extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -24,5 +23,5 @@ class LemonAndGinger extends Component {
   }
 }
 
-export default LemonAndGinger
+export default Home
 // connect(null, { navigateTo })(Home)
