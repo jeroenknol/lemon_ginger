@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { Text, ScrollView } from 'react-native';
 import styles from './AllRecipes.styles'
 import RecipeItem from '../components/shared/RecipeItem'
 import Filter from '../components/allrecipes/Filter'
@@ -7,12 +7,15 @@ import Filter from '../components/allrecipes/Filter'
 class AllRecipes extends Component {
   render() {
     return (
-      <View style={styles.container}>
+      <ScrollView style={styles.container}>
         <Filter />
         <RecipeItem />
         <RecipeItem />
         <RecipeItem />
-      </View>
+        <RecipeItem />
+        <RecipeItem />
+        <RecipeItem />
+      </ScrollView>
     );
   }
 }
