@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 import styles from './AllRecipes.styles'
 import RecipeItem from '../components/shared/RecipeItem'
-import Filter from '../components/allrecipesscreen/Filter'
+import Filter from '../components/allrecipes/Filter'
 
 class AllRecipes extends Component {
   render() {

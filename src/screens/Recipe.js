@@ -3,8 +3,8 @@ import { Text, View } from 'react-native';
 import styles from './Recipe.styles'
 
 import RecipeItem from '../components/shared/RecipeItem'
-import Ingredients from '../components/recipescreen/Ingredients'
-import CookingSteps from '../components/recipescreen/CookingSteps'
+import Ingredients from '../components/recipe/Ingredients'
+import CookingSteps from '../components/recipe/CookingSteps'
 
 class RecipeScreen extends Component {
   render() {
