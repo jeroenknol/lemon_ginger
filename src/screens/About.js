@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { Text, View, Image } from 'react-native';
 import Title from '../components/shared/Title'
 import styles from './About.styles'
 
@@ -7,8 +7,12 @@ class AboutScreen extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Title content="About Ginger & Lemons"/>
-        <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus enim nisi, ac pellentesque urna porttitor eget. Curabitur quis facilisis metus. Cras blandit, arcu non finibus rutrum, dui felis accumsan eros, sit amet varius purus sem nec eros. Aliquam vel volutpat nisi, ut tristique urna. Nulla pellentesque neque dolor, quis consequat nunc dictum vel. Sed ac sagittis odio. Proin ut ipsum ut purus interdum accumsan id id erat. Etiam eu hendrerit orci, in aliquam sem. Quisque vel lacus gravida, facilisis leo nec, sodales dolor. Quisque ullamcorper leo a tellus pulvinar ultrices.</Text>
+        <Image
+          style={styles.photo}
+          source={{uri: 'http://localhost:3000/assets/RosaFaber-d3ace19a1e494a1530f7dafafba9a6dac829cd3155b7c818ae72ef2de6961d4d.jpg'}}
+        />
+        <Title content="Welkom bij Lemon & Ginger"/>
+        <Text style={styles.text}>Toen ik 20 was zag ik mijzelf geen kok worden, maar tijdens mijn studie Cultureel Erfgoed kwam ik er achter dat ik echt liever achter het fornuis stond dan in de boeken zat. Het was niet dat ik mijn studie niet leuk vond, maar eten en koken intrigeerde mij nog meer. Ik heb toen mijn studie verruild voor een stage in de keuken en ben tegelijk begonnen met het schrijven van recepten. Kort daarna ben ik begonnen met Roos kookt en heb ik een aantal jaren ervaring als cateraar, taartenbakker en chef van mijn gezin. Nu is het tijd mijn recepten, kennis en tips met jullie te delen in een superhandig mobiele app.</Text>
       </View>
     );
   }
