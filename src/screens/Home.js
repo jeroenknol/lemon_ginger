@@ -20,7 +20,6 @@ class Home extends Component {
     this.props.fetchRecipes()
   }
 
-
   render() {
     console.log('This propz0rs',this.props)
     return (

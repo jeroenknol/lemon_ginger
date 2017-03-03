@@ -1,4 +1,5 @@
 import { FETCHED_RECIPES } from '../actions/recipes/fetch'
+import { FETCHED_ROTW } from '../actions/recipes/fetchROTW'
 
 export default (state = [], { type, payload } = {}) => {
   switch(type) {

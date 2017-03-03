@@ -13,7 +13,7 @@ class ControlPanel extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.title}>Lemon & Ginger</Text>
-        <Text style={styles.menuitems} onPress={() => navigateTo({ index: 2 })} >Recept van de week</Text>
+        <Text style={styles.menuitems} onPress={() => navigateTo({ index: 4 })} >Recept van de week</Text>
         <Text style={styles.menuitems} onPress={() => navigateTo({ index: 1 })} >Bekijk alle recepten</Text>
         <Text style={styles.menuitems} onPress={() => navigateTo({ index: 3 })} >Over Roos</Text>
         <Text style={styles.logout}>Log uit</Text>
