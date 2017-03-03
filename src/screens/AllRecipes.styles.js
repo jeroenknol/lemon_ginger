@@ -6,6 +6,6 @@ module.exports = StyleSheet.create({
     backgroundColor: '#F1F4EF',
     width: 375,
     borderColor: "#000",
-    marginTop: 20
+    marginTop: 60
   },
 });

@@ -78,14 +78,14 @@ class App extends Component {
           <Navigator.NavigationBar
             routeMapper={{
               LeftButton: (route, navigator, index, navState) =>
-                { return (<Text style={styles.text}>Cancel</Text>); },
+                { return (<Text style={styles.text}> </Text>); },
               RightButton: (route, navigator, index, navState) =>
                 { return (
                   <Text style={styles.text} onPress={openMenu}>
-                    <Icon name="hamburger" size={30} color="#900" />
+                    <Icon name="hamburger" size={30} color="#4A4A4A" />
                   </Text>); },
               Title: (route, navigator, index, navState) =>
-                { return (<Text style={styles.titleText}>Awesome Nav Bar</Text>); },
+                { return (<Text style={styles.titleText}>Lemon & Ginger</Text>); },
             }}
             style={styles.navigationbar}
           /> : null
