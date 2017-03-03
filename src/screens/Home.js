@@ -26,18 +26,11 @@ class Home extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.title}>Lemon{'\n'}&{'\n'}Ginger</Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
         <Login />
         <Button
           onPress={() => this.navigate(1)}
           title="Log in"
-          color="#FBDE5B"
+          color="#4A4A4A"
           accessibilityLabel="Log in"
         />
       </View>
@@ -45,7 +38,7 @@ class Home extends Component {
   }
 }
 
-// Line 45 converts state to props for recipes, mapStateToProps insterted into connect on line 48. 
+// Line 45 converts state to props for recipes, mapStateToProps insterted into connect on line 48.
 const mapStateToProps = ({ recipes }) => ({ recipes })
 
 export default connect(mapStateToProps, { fetchRecipes })(Home)
