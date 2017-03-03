@@ -38,8 +38,6 @@ componentWillMount() {
         <Text>{this.props.recipeweek[0].title}</Text>
         <Text>{this.props.recipeweek[0].subtitle}</Text>
         <Text>{this.props.recipeweek[0].cooking_time}</Text>
-
-        { this.props.recipeweek[0].ingredients.map(this.renderIngredients.bind(this)) }
         { this.props.recipeweek[0].cooking_steps.map(this.renderCookingStep.bind(this)) }
       </ScrollView>
     );
