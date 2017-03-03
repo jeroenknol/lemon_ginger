@@ -5,7 +5,7 @@ class Title extends Component {
 
   render() {
     return (
-      <Text>TITEL</Text>
+      <Text style={{fontSize: 20, fontWeight: 'bold'}}>{this.props.content}</Text>
     )
   }
 }

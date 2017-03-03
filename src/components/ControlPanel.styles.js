@@ -6,7 +6,7 @@ module.exports = StyleSheet.create({
     justifyContent: 'space-between',
     backgroundColor: '#4A4A4A',
     opacity: 0.95,
-    marginTop: 20,
+    marginTop: 60,
   },
   title: {
     flex: 1,
