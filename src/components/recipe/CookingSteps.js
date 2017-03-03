@@ -3,15 +3,16 @@ import { View, Image, Text, TouchableHighlight } from 'react-native'
 import styles from './RecipeScreen.styles'
 // import RecipeItem from '../components/recipeItem'
 
-class RecipeItem extends Component {
+class CookingStep extends Component {
   render() {
     return (
-        <View>
-            <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus enim nisi, ac pellentesque urna porttitor eget.</Text>
-        </View>
+      <View>
+        <Text>{this.props.title}</Text>
+        <Text>{this.props.description}</Text>
+      </View>
     );
   }
 }
 
-export default RecipeItem
+export default CookingStep
 // connect(null, { navigateTo })(Home)
