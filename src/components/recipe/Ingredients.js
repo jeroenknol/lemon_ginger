@@ -32,4 +32,3 @@ class Ingredients extends React.Component {
 }
 
 export default Ingredients
-// connect(null, { navigateTo })(Home)

@@ -11,7 +11,7 @@ class RecipeItem extends Component {
       <TouchableHighlight underlayColor="#FFFFFF" style={styles.recipeitem}>
 
         <View>
-          <Image source={{uri: 'http://localhost:3000' + this.props.photos[0].image.iphone6.url}} style={styles.thumb} />
+          <Image source={{uri: 'https://lemon-ginger.herokuapp.com' + this.props.photos[0].image.iphone6.url}} style={styles.thumb} />
           <Text style={styles.text}>{this.props.title}</Text>
           <View style={styles.buttons}>
             <Image
